@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Hide Sponsored Content on Yahoo",
+  "description": "This Chrome extension hides sponsored content on the Yahoo website.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.yahoo.com/*"],
+      "js": ["app.js"]
+    }
+  ]
+}
