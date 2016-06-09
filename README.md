@@ -1,5 +1,5 @@
 # Hide Sponsored Content
-This Chrome extension hides sponsored content on the Yahoo website.
+This Chrome extension hides sponsored content on the Yahoo and Buzzfeed websites.
 
 #How To Use
 
@@ -14,9 +14,3 @@ This Chrome extension hides sponsored content on the Yahoo website.
     Click "Ok".
     
 3)  Make sure the "Enabled" checkbox is checked.
-    
-    
-#Files
-manifest.json
-
-app.js
