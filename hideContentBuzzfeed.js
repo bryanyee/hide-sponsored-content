@@ -6,12 +6,14 @@ function hideSponsoredContent(){
 		sponsoredContentS2 = document.getElementsByClassName("bf-widget dd post sidebar-post bf_dom lede--stacked gpt"),
 		sponsoredContentB  = document.getElementsByClassName("bf-widget post partner-area viral-post  bf_dom gpt");
 
-	Array.prototype.forEach.call(sponsoredContentT, element => {element.style.display = "none"});
-	Array.prototype.forEach.call(sponsoredContentTS, element => {element.style.display = "none"});
-	Array.prototype.forEach.call(sponsoredContentM, element => {element.style.display = "none"});
-	Array.prototype.forEach.call(sponsoredContentS, element => {element.style.display = "none"});
-	Array.prototype.forEach.call(sponsoredContentS2, element => {element.style.display = "none"});
-	Array.prototype.forEach.call(sponsoredContentB, element => {element.style.display = "none"});
+	var sponsoredContentArray = Array.from(sponsoredContentT)
+								.concat(Array.from(sponsoredContentTS))
+								.concat(Array.from(sponsoredContentM))
+								.concat(Array.from(sponsoredContentS))
+								.concat(Array.from(sponsoredContentS2))
+								.concat(Array.from(sponsoredContentB));
+
+	sponsoredContentArray.forEach( element => { element.style.display = "none" } );
 }
 
 hideSponsoredContent();
