@@ -12,7 +12,7 @@
     {
       "matches": ["https://www.buzzfeed.com/*"],
       "js": ["hideContentBuzzfeed.js"]
-    }
+    },
     {
       "matches": ["https://www.facebook.com/*"],
       "js": ["hideContentFacebook.js"]
