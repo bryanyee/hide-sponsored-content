@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Hide Sponsored Content on Yahoo and Buzzfeed",
-  "description": "This Chrome extension hides sponsored content on the Yahoo and Buzzfeed websites.",
-  "version": "1.1",
+  "name": "Hide Sponsored Content on Facebook, Yahoo & Buzzfeed",
+  "description": "This Chrome extension hides sponsored content on the Facebook, Yahoo and Buzzfeed websites.",
+  "version": "1.2",
 
   "content_scripts": [
     {
@@ -13,5 +13,9 @@
       "matches": ["https://www.buzzfeed.com/*"],
       "js": ["hideContentBuzzfeed.js"]
     }
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["hideContentFacebook.js"]
+    },
   ]
 }
