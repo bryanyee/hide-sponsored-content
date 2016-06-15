@@ -16,6 +16,6 @@
     {
       "matches": ["https://www.facebook.com/*"],
       "js": ["hideContentFacebook.js"]
-    },
+    }
   ]
 }
