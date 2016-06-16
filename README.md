@@ -1,5 +1,5 @@
 # Hide Sponsored Content
-This Chrome extension hides sponsored content on the Facebook, Yahoo and Buzzfeed websites.
+This Chrome extension hides sponsored content on the Facebook, Google, Yahoo and Buzzfeed websites.
 
 #How To Use
 
