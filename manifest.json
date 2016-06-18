@@ -18,7 +18,7 @@
       "js": ["hideContentFacebook.js"]
     },
     {
-      "matches": ["https://www.google.com/*"],
+      "matches": ["*://*.google.com/*"],
       "js": ["hideContentGoogle.js"]
     }
   ]

@@ -4,8 +4,9 @@ window.onload = function(){
 }
 */
 
-var hide = setTimeout(hide,500);
+var hideAdsTimeout = setInterval(hideAdContent,1000);
 
-function hide(){
-	document.getElementById("taw").style.display = "none";	
+function hideAdContent(){
+	var adContent = document.getElementById("taw");
+	if(adContent) adContent.style.display = "none";	
 }
