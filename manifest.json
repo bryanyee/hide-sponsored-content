@@ -6,7 +6,7 @@
 
   "content_scripts": [
     {
-      "matches": ["https://www.yahoo.com/*"],
+      "matches": ["*://*.yahoo.com/*"],
       "js": ["hideContentYahoo.js"]
     },
     {
